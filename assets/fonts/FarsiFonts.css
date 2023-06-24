@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+    font-family:'IRANSans';
+    src:url("IRANSans/IRANSans-Medium-web.eot");
+    src:url("IRANSans/IRANSans-Medium-web.eot?#iefix") format("eot"),
+    url("IRANSans/IRANSans-Medium-web.woff2") format("woff2"),
+    url("IRANSans/IRANSans-Medium-web.woff") format("woff"),
+    url("IRANSans/IRANSans-Medium-web.ttf") format("ttf");
+    font-weight:500
+}
+
+/*@font-face{*/
+/*    font-family:'IRANSans';*/
+/*    src:url("IRANSans/IRANSans-web.eot");*/
+/*    src:url("IRANSans/IRANSans-web.eot?#iefix") format("eot"),*/
+/*    url("IRANSans/IRANSans-web.woff2") format("woff2"),*/
+/*    url("IRANSans/IRANSans-web.woff") format("woff"),*/
+/*    url("IRANSans/IRANSans-web.ttf") format("ttf");*/
+/*    font-weight:normal*/
+/*}*/
+
+/*!*===================== Traditional Fonts ====================*!*/
+/*@font-face {*/
+/*    font-family: 'BYekan';*/
+/*    src: url(Farsi/Yekan.eot);*/
+/*    src: url(Farsi/Yekan.eot?#iefix) format("embedded-opentype"),*/
+/*    url(Farsi/Yekan.woff) format("woff"),*/
+/*    url(Farsi/Yekan.ttf) format("truetype"),*/
+/*    url(Farsi/Yekan.svg#BYekan) format("svg");*/
+/*    font-weight: normal;*/
+/*    font-style: normal*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BNazanin';*/
+/*    src: url('Farsi/39.eot');*/
+/*    src: local('â˜º'), url('Farsi/39.woff') format('woff'),*/
+/*    url('Farsi/39.ttf') format('truetype'),*/
+/*    url('Farsi/39.svg') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: 'BTitr';*/
+/*    src: url('Farsi/44.eot');*/
+/*    src: local('â˜º'), url('Farsi/44.woff') format('woff'),*/
+/*    url('Farsi/44.ttf') format('truetype'),*/
+/*    url('Farsi/44.svg') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BMitra';*/
+/*    src: url('Farsi/BMitra.eot');*/
+/*    src: url('Farsi/BMitra.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BMitra.woff') format('woff'),*/
+/*    url('Farsi/BMitra.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BMitraBold';*/
+/*    src: url('Farsi/BMitraBold.eot');*/
+/*    src: url('Farsi/BMitraBold.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BMitraBold.woff') format('woff'),*/
+/*    url('Farsi/BMitraBold.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BRoya';*/
+/*    src: url('Farsi/BRoya.eot');*/
+/*    src: url('Farsi/BRoya.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BRoya.woff') format('woff'),*/
+/*    url('Farsi/BRoya.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BTabassom';*/
+/*    src: url('Farsi/BTabassom.eot');*/
+/*    src: url('Farsi/BTabassom.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BTabassom.woff') format('woff'),*/
+/*    url('Farsi/BTabassom.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: 'BTitr';*/
+/*    src: url('Farsi/BTitr.eot');*/
+/*    src: url('Farsi/BTitr.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BTitr.woff') format('woff'),*/
+/*    url('Farsi/BTitr.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BTitrTGE';*/
+/*    src: url('Farsi/BTitrTGE.eot');*/
+/*    src: url('Farsi/BTitrTGE.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BTitrTGE.woff') format('woff'),*/
+/*    url('Farsi/BTitrTGE.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'BTraffic';*/
+/*    src: url('Farsi/BTraffic.eot');*/
+/*    src: url('Farsi/BTraffic.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BTraffic.woff') format('woff'),*/
+/*    url('Farsi/BTraffic.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: 'BNasim';*/
+/*    src: url('Farsi/BNasim.eot');*/
+/*    src: url('Farsi/BNasim.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Farsi/BNasim.woff') format('woff'),*/
+/*    url('Farsi/BNasim.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/
+

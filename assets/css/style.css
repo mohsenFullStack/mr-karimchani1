@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("../fonts/FarsiFonts.css");
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a {
+    cursor:pointer;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    color: #000;
+    font-size: 11px;
+    direction: rtl;
+    font-family: IRANSans;
+    margin:0px;
+    padding:0px;
+}
+
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #4B4B4C;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight:bold;
+}
+
+.intro-header {
+    background-size:cover;
+    width: 100%;
+    clear: both;
+}
+.intro-header .logo {
+    margin:20px 0px;
+}
+.intro-header .phone-number {
+    font-size:13px;
+    margin:40px 0px 0px 0px;
+}
+.intro-header .phone-number .fa {
+    padding-right:5px;
+    font-size:14px;
+}
+.intro-header .phone-number td {
+    text-align:left;
+}
+.intro-header .phone-number td span {
+    padding-right:5px;
+}
+
+
+.section-padding {
+    padding: 60px 0px;
+}
+
+.bg-gray {
+    background-color:#EEE;
+}
+.bg-black {
+    background-color:#000;
+}
+.bg-blue {
+    background-color:#234e8c;
+}
+
+/*section header > h2 , footer header > h2 {
+	font-size: 24px;
+	padding-bottom: 15px;
+}
+
+section header > h4 {
+    color: #234e8c;
+    font-size: 20px;
+}*/
+
+section header > p {
+    font-size: 14px;
+}
+
+.details .fa {
+    font-size: 60px;
+    color: #234e8c;
+}
+.details h4 {
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0px;
+    text-align: center;
+}
+.box2 h4 {
+    color: #234e8c;
+}
+.box2 p {
+    text-align:right;
+}
+/*--------------------*/
+.orga-stru {
+    background-color: #5FCF80;
+    width: 109px;
+    height: auto;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+    border-radius: 0px 80px 99px 99px;
+    -moz-border-radius: 0px 80px 99px 99px;
+    -webkit-border-radius: 0px 80px 99px 99px;
+    -o-border-radius: 0px 80px 99px 99px;
+    text-align:center;
+}
+.orga-stru h4 {
+    font-size: 18px;
+}
+.orga-stru p {
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.orga-stru .fa {
+    font-size: 80px;
+    margin-top: 35px;
+    color: #FFF;
+}
+.orga-stru2 {
+    width: 90%;
+}
+.orga-stru3 {
+    border-radius: 0px 40px 40px 40px;
+    -moz-border-radius: 0px 40px 40px 40px;
+    -webkit-border-radius: 0px 40px 40px 40px;
+    -o-border-radius: 0px 40px 40px 40px;
+    background-color: #234e8c;
+}
+.orga-stru3 h4 {
+    color:#FFF;
+}
+.details-orga {
+    font-size:12px;
+}
+.details-orga h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.details-orga h4 {
+    color: #5FCF80;
+    font-size: 20px;
+}
+.details-orga p.det-p {
+    padding: 40px 0px 20px 0px ;
+}
+.details-orga ul {
+    padding:0px 30px 20px 0px;
+}
+/*===============================*/
+#pricing section h4 {
+    font-size: 20px;
+    color: #232c3b;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #232c3b;
+    padding-bottom: 20px;
+}
+#pricing section span {
+    font-size: 50px;
+    font-weight: bold;
+    text-align:center;
+}
+#pricing .price-in {
+    margin-bottom:40px;
+}
+/*================================*/
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-bg {
+    border: 0px;
+    border-radius: 0px;
+    color: #fff !important;
+    padding: 10px 0px;
+    font-weight: bold !important;
+    font-size: 14px;
+    background-color: #234e8c;
+}
+/*====================================*/
+#templates header > h2 {
+    color:#FFF;
+}
+#templates header > p ,  #templates hgroup > p {
+    font-size: 14px;
+    color:#FFF;
+}
+#templates header > hr , #templates hgroup > hr  {
+    width: 40px;
+    color:#FFF;
+}
+/*===================================*/
+#documents hgroup {
+    text-align:center;
+    padding-bottom:20px;
+}
+#documents hgroup h4 {
+    font-size:20px;
+    line-height:1.8;
+    color: #234e8c;
+}
+#documents .round-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+/*===================================*/
+#customers h3 , #blog h3 {
+    font-size:24px;
+    margin-bottom:10px;
+    line-height:30px;
+}
+#customers .text-success , #blog .text-success {
+    margin-top:10px;
+    color:#FC0;
+}
+/*==================================*/
+#services .service-box {
+    background: #fff;
+    padding: 40px 30px 40px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+#services .fa {
+    color: #234e8c;
+    font-size: 65px;
+}
+#services h6 {
+    padding-top:20px;
+    line-height:1.8;
+}
+/*--------------------------------*/
+#QR-software header {
+    margin-bottom:20px;
+}
+#QR-software .detail-info li {
+    font-size:12px;
+    line-height:2.4;
+    padding:10px 0px;
+    margin-right:20px;
+}
+#QR-software li h6 {
+    color:#000;
+    font-size:13px;
+}
+#QR-software h4 {
+    color: #234e8c;
+    font-size: 20px;
+}
+#QR-software ol {
+    padding:5px 20px;
+    line-height:2.6;
+}
+/*---------------------------------*/
+#softwares header > h2 {
+    color:#FFF;
+}
+#softwares header > hr  {
+    width: 40px;
+    color:#FFF;
+}
+#softwares section > div {
+    padding:40px 0px 30px 0px;
+}
+#softwares hgroup > h3 {
+    font-size: 20px;
+    color:#FC0;
+}
+#softwares hgroup > h4 {
+    font-size: 17px;
+    font-weight:normal;
+    line-height:1.8;
+    color:#09C;
+}
+#softwares hgroup > hr {
+    width:80%;
+}
+#softwares p {
+    font-size:12px;
+    color:#FFF;
+}
+/*===============================*/
+.nested-page section {
+    font-size:14px;
+    padding:0px 10px;
+}
+.nested-page section hr{
+    margin:60px 0px;
+}
+.nested-page section table .fa {
+    font-size:14px;
+    padding:0px 10px;
+}
+/*===============================*/
+#counter section table td {
+    font-size:13px;
+}
+#counter section table h1 {
+    font-size:30px;
+    margin-top: 30px;
+}
+#counter section table .conf-state {
+    vertical-align:middle;
+}
+/*===============================*/
+#blog footer a {
+    width:50%;
+}
+/*===============================*/
+.modal .modal-header {
+    font-size:16px;
+}
+.modal .modal-body {
+    font-size:14px;
+    text-align:justify;
+    padding:20px;
+}
+.modal .modal-dialog {
+    width:40%;
+}
+.modal .modal-body span {
+    color: #234e8c;
+}
+/*===============================*/
+@media (max-width: 768px) {
+    .modal .modal-dialog {
+        width:90%;
+    }
+    .orga-stru2 {
+        width: 70%;
+        margin-right:15%;
+        margin-bottom:20px;
+    }
+    #blog footer a {
+        width:90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro-header .phone-number {
+        display:none;
+    }
+}
